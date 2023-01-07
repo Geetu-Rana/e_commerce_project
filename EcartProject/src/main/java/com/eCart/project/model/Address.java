@@ -1,5 +1,6 @@
 package com.eCart.project.model;
 
+import javax.persistence.Embeddable;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -11,10 +12,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
+@Embeddable
 public class Address {
-	
-	private Integer addressID;
 	
 	private String buildingName;
 	
