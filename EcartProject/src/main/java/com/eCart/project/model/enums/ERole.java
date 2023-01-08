@@ -1,6 +1,6 @@
 package com.eCart.project.model.enums;
 
-public enum Role {
+public enum ERole {
 	ADMIN,
 	CUSTOMER
 }

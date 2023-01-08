@@ -31,10 +31,6 @@ public class Address {
 	private String pincode;
 	@NotNull
 	private String type;
-
-	@Email(message = "Enter email in example@email.com")
-	@NotNull
-	private String email;
 	
 	@NotNull
 	private String phoneNumber;
